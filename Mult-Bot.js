@@ -82,16 +82,14 @@ bot.on('message', message => {
   // if the message is "ping",
   if (message.content.startsWith(prefix)) {
     switch(message.content) {
-      case("!AveryBot"):
-        message.channel.sendMessage('Boy, do I sure LOVE Bill Clinton');
+      case("!MultBot"):
+        message.channel.sendMessage('See what I can do with !help');
         break;
       case("!HSInfo"):
         //Suffix not made yet, uncomment when finished
         //message.channel.sendMessage('Card: ' + suffix);
         break;
     }
-    // send "Boy, do I sure love Bill Clinton" to the same channel.
-    //message.channel.sendMessage('Boy, do I sure love Bill Clinton!');
   }
 */
 });
